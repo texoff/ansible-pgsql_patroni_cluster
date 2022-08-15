@@ -12,7 +12,6 @@
 
   post_tasks:
     - include: tasks/zabbix.yml
-    - include: tasks/zabbix1.yml
 
   roles:
      - ansible-role-patroni
